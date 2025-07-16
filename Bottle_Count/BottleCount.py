@@ -32,7 +32,7 @@
             else:
                 cv2.drawContours(image, [num], -1, (255, 0, 0), 2)  # diğer mavi
                 #print(f"Area: {area} bu sayılmıyor")
-    #bozukkonrulerigösteramakafamıkarıştırdı
+   
     
         
         cv2.imshow(f"Konturlar : {os.path.basename(full_path)}", image)
